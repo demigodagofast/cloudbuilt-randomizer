@@ -1,0 +1,12 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "Cloudbuilt",
+  "creator": "demigodagofast",
+  "filler_item_name": "Pumpkin",
+  "starting_items": [
+    {
+      "_comment": "Starting items. Defaults to nothing. Add items from items.json here if you want.",
+      "items": []
+    }
+  ]
+}

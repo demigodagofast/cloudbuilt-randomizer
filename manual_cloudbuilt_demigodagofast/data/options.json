@@ -1,0 +1,78 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "core": {
+        "goal":{
+            "display_name": "The End Objective",
+            "description": "Collect 4 keys to unlock and complete Chains",
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        }
+    },
+    "user": {
+      "enable_battle_challenge": {
+        "type": "Toggle",
+        "display_name": "Enable Battle Challenges",
+        "description": [
+          "Turn this on if you want Battle Challenge levels included as locations."
+        ],
+        "default": true
+      },
+      "enable_easter_egg_checks": {
+        "type": "Toggle",
+        "display_name": "Enable Easter Egg Checks",
+        "description": [
+          "Easter egg checks include the flower pots in the four main branches, the sandcastle in Ruins, the picnic table in Stability, and the arachtoid in the Intro level."
+        ],
+        "default": true
+      },
+      "enable_unlockable_supercharge_upgrade": {
+        "type": "Toggle",
+        "display_name": "Enable Unlockable Supercharge Upgrade",
+        "description": [
+          "If turned on, Supercharge Mode is unlockable.",
+          "NOTE: Some randomizer logic with supercharge can be hard (e.g. Defiance levels without a gun). Disable if you don't want this."
+        ],
+        "default": true
+      },
+      "enable_unlockable_assault_gun": {
+        "type": "Toggle",
+        "display_name": "Enable Unlockable Assault Gun",
+        "description": [
+          "If turned on, Assault Mode is unlockable."
+        ],
+        "default": true
+      },
+      "enable_legacy_levels": {
+        "type": "Toggle",
+        "display_name": "Enable Legacy Level Variants",
+        "description": [
+          "If turned on, levels with both Legacy and 2020 variants will have their Legacy variants included as locations.",
+          "NOTE: This setting and Enable 2020 Level Variants may both be enabled (in which case both variants appear).",
+          "NOTE: If Supercharge, Assault, or Easter egg checks are on, some randomizer logic may require you to play the Supercharge/Assault/Legacy variants of levels even if this setting is disabled."
+        ],
+        "default": true
+      },
+      "enable_2020_levels": {
+        "type": "Toggle",
+        "display_name": "Enable 2020 Level Variants",
+        "description": [
+          "If turned on, levels with both Legacy and 2020 variants will have their 2020 variants included as locations.",
+          "NOTE: This setting and Enable Legacy Level Variants may both be enabled (in which case both variants appear)."
+        ],
+        "default": false
+      },
+      "enable_traps": {
+        "type": "Toggle",
+        "display_name": "Enable Traps",
+        "description": [
+          "Traps include:",
+          "- Completing a challenge mode version of a level (Fragile, No Ammo, Beacons, Pathfinder). You can choose any level for this (even ones you have already completed).",
+          "- Listen to Demi monologue. Open the computer in the hospital room, double click one of the text logs, and listen to Demi read it.",
+          "- Play golf. Go to Custom Levels and complete the level 'Mini Golf? But Worse!'"
+        ],
+        "default": true
+      }
+    }
+}

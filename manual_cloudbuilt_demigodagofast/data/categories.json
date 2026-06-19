@@ -1,0 +1,75 @@
+{
+  "Day Branch": {
+
+  },
+  "Night Branch": {
+
+  },
+  "Storm Branch": {
+
+  },
+  "Dawn Branch": {
+
+  },
+  "Fog Branch": {
+
+  },
+  "Walk in the Park": {
+
+  },
+  "Remix Levels": {
+
+  },
+  "User Creation": {
+
+  },
+  "Defiance": {
+
+  },
+  "Battle Challenge": {
+    "yaml_option": [
+      "enable_battle_challenge"
+    ]
+  },
+  "Equipment": {
+
+  },
+  "Easter Eggs": {
+    "yaml_option": [
+      "enable_easter_egg_checks"
+    ],
+    "hidden": true
+  },
+  "Supercharge": {
+    "yaml_option": [
+      "enable_unlockable_supercharge_upgrade"
+    ],
+    "hidden": true
+  },
+  "Assault Gun": {
+    "yaml_option": [
+      "enable_unlockable_assault_gun"
+    ],
+    "hidden": true
+  },
+  "Legacy": {
+    "yaml_option": [
+      "enable_legacy_levels"
+    ],
+    "hidden": true
+  },
+  "2020": {
+    "yaml_option": [
+      "enable_2020_levels"
+    ],
+    "hidden": true
+  },
+  "Keys": {
+
+  },
+  "Traps": {
+    "yaml_option": [
+      "enable_traps"
+    ]
+  }
+}

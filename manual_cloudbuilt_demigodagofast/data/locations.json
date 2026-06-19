@@ -1,0 +1,642 @@
+[
+  {
+    "name": "Intro complete",
+    "category": [
+      "Walk in the Park"
+    ]
+  },
+  {
+    "name": "Initial Entry Legacy complete",
+    "requires": "(|Air Jump| and |Wallrun| and |Dash|) or ((|Air Jump| or |Wallrun|) and |Blue Gun|)",
+    "category": [
+      "Walk in the Park",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Initial Entry 2020 complete",
+    "requires": "(|Air Jump| and |Wallrun| and |Dash|) or ((|Air Jump| or |Wallrun|) and |Blue Gun|)",
+    "category": [
+      "Walk in the Park",
+      "2020"
+    ]
+  },
+  {
+    "name": "The Meaning Legacy complete",
+    "requires": "|Air Jump| or |Dash| or |Blue Gun|",
+    "category": [
+      "Walk in the Park",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "The Meaning 2020 complete",
+    "requires": "|Air Jump| or (|Dash| and (|Blue Gun| or |Yellow Gun| or |Green Gun| or |Wallrun|))",
+    "category": [
+      "Walk in the Park",
+      "2020"
+    ]
+  },
+  {
+    "name": "No Excuse Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash|",
+    "category": [
+      "Walk in the Park",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "No Excuse 2020 complete",
+    "requires": "|Air Jump| or |Wallrun| or (|Dash| and |Blue Gun|)",
+    "category": [
+      "Walk in the Park",
+      "2020"
+    ]
+  },
+  {
+    "name": "Beyond the Walls Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|",
+    "category": [
+      "Walk in the Park",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Beyond the Walls 2020 complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun|",
+    "category": [
+      "Walk in the Park",
+      "2020"
+    ]
+  },
+  {
+    "name": "A Message Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun|",
+    "category": [
+      "Walk in the Park",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "A Message 2020 complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash|",
+    "category": [
+      "Walk in the Park",
+      "2020"
+    ]
+  },
+  {
+    "name": "Best Intentions Legacy complete",
+    "requires": "(|Blue Gun| and (|Air Jump| or |Wallrun| or |Dash|)) or (|Wallrun| and (|Air Jump| or |Dash|))",
+    "category": [
+      "Day Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Best Intentions 2020 complete",
+    "requires": "|Air Jump| or (|Dash| and |Wallrun|)",
+    "category": [
+      "Day Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Escape Legacy complete",
+    "category": [
+      "Day Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Escape 2020 complete",
+    "requires": "|Air Jump| or |Dash|",
+    "category": [
+      "Day Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Stability Legacy complete",
+    "requires": "(|Air Jump| and (|Blue Gun| or |Green Gun| or |Yellow Gun| or |Assault Gun| or |Supercharge Upgrade|)) or (|Dash| and (|Wallrun| or |Supercharge Upgrade|))",
+    "category": [
+      "Day Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Stability 2020 complete",
+    "requires": "(|Air Jump| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)) or (|Dash| and |Wallrun|)",
+    "category": [
+      "Day Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Acceptance Legacy complete",
+    "requires": "|Wallrun| or ((|Air Jump| or |Dash|) and (|Blue Gun| or |Yellow Gun| or |Green Gun|)) or |Assault Gun|",
+    "category": [
+      "Day Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Acceptance 2020 complete",
+    "requires": "|Wallrun| or ((|Air Jump| or |Dash|) and (|Blue Gun| or |Yellow Gun| or |Green Gun|))",
+    "category": [
+      "Day Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Underneath Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|",
+    "category": [
+      "Night Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Underneath 2020 complete",
+    "requires": "|Air Jump| or (|Wallrun| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)) or |Dash| or |Blue Gun|",
+    "category": [
+      "Night Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "In the Dark Legacy complete",
+    "requires": "|Air Jump| or (|Dash| and (|Wallrun| or |Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun| or |Supercharge Upgrade|))",
+    "category": [
+      "Night Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "In the Dark 2020 complete",
+    "requires": "|Air Jump| or (|Dash| and (|Wallrun| or |Blue Gun| or |Yellow Gun| or |Green Gun|))",
+    "category": [
+      "Night Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Emptiness Legacy complete",
+    "requires": "|Dash|",
+    "category": [
+      "Night Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Emptiness 2020 complete",
+    "requires": "|Dash|",
+    "category": [
+      "Night Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "My Regrets Legacy complete",
+    "requires": "(|Air Jump| or (|Wallrun| and |Dash|)) and (|Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|)",
+    "category": [
+      "Night Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "My Regrets 2020 complete",
+    "requires": "|Wallrun| and (|Air Jump| or |Dash|) and |Blue Gun|",
+    "category": [
+      "Night Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Dreams Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Assault Gun|",
+    "category": [
+      "Dawn Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Dreams 2020 complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash|",
+    "category": [
+      "Dawn Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "The Clouds Legacy complete",
+    "requires": "|Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|",
+    "category": [
+      "Dawn Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "The Clouds 2020 complete",
+    "requires": "(|Air Jump| or |Wallrun| or |Dash|) and (|Blue Gun| or |Yellow Gun| or |Green Gun|)",
+    "category": [
+      "Dawn Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "My Source Legacy complete",
+    "requires": "|Wallrun| and (|Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|)",
+    "category": [
+      "Dawn Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "My Source 2020 complete",
+    "requires": "|Wallrun| and |Dash| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)",
+    "category": [
+      "Dawn Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "My Inspiration Legacy complete",
+    "requires": "(|Air Jump| and |Supercharge Upgrade| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)) or (|Wallrun| and (|Dash| or |Air Jump|) and (|Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|))",
+    "category": [
+      "Dawn Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "My Inspiration 2020 complete",
+    "requires": "|Wallrun| and (|Air Jump| or |Dash|) and (|Blue Gun| or |Yellow Gun| or |Green Gun|)",
+    "category": [
+      "Dawn Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "A Window Legacy complete",
+    "category": [
+      "Storm Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "A Window 2020 complete",
+    "requires": "|Air Jump| or |Dash|",
+    "category": [
+      "Storm Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Clarity Legacy complete",
+    "requires": "|Wallrun| or ((|Air Jump| or |Dash|) and |Supercharge Upgrade|)",
+    "category": [
+      "Storm Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Clarity 2020 complete",
+    "requires": "|Air Jump| or |Wallrun|",
+    "category": [
+      "Storm Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "What's to Come Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Assault Gun|",
+    "category": [
+      "Storm Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "What's to Come 2020 complete",
+    "requires": "(|Air Jump| or |Wallrun|) and (|Blue Gun| or |Yellow Gun| or |Green Gun|)",
+    "category": [
+      "Storm Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Redeployment Legacy complete",
+    "requires": "(|Wallrun| and |Dash| and (|Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|)) or (|Air Jump| and |Supercharge Upgrade|)",
+    "category": [
+      "Storm Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Redeployment 2020 complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)",
+    "category": [
+      "Storm Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Ruins Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash|",
+    "category": [
+      "Fog Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Ruins 2020 complete",
+    "requires": "(|Air Jump| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)) or |Wallrun|",
+    "category": [
+      "Fog Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "To Dust Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Green Gun|",
+    "category": [
+      "Fog Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "To Dust 2020 complete",
+    "requires": "|Wallrun| and (|Air Jump| or |Dash|)",
+    "category": [
+      "Fog Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Doubt Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash|",
+    "category": [
+      "Fog Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Doubt 2020 complete",
+    "requires": "|Wallrun|",
+    "category": [
+      "Fog Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "What Remains Legacy complete",
+    "requires": "|Air Jump| or (|Wallrun| and |Dash|)",
+    "category": [
+      "Fog Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "What Remains 2020 complete",
+    "requires": "|Air Jump| or (|Wallrun| and |Dash|)",
+    "category": [
+      "Fog Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Construction Legacy complete",
+    "requires": "|Wallrun| or (|Air Jump| and |Supercharge Upgrade|)",
+    "category": [
+      "Fog Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Construction 2020 complete",
+    "requires": "|Wallrun|",
+    "category": [
+      "Fog Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Fog Remix I Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Green Gun|",
+    "category": [
+      "Fog Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Fog Remix I 2020 complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash|",
+    "category": [
+      "Fog Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Fog Remix II Legacy complete",
+    "requires": "|Wallrun| or (|Air Jump| and |Supercharge Upgrade|)",
+    "category": [
+      "Fog Branch",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Fog Remix II 2020 complete",
+    "requires": "|Wallrun| and (|Air Jump| or |Dash|)",
+    "category": [
+      "Fog Branch",
+      "2020"
+    ]
+  },
+  {
+    "name": "Remix I Legacy complete",
+    "requires": "|Air Jump| or |Wallrun| or |Blue Gun|",
+    "category": [
+      "Remix Levels",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Remix I 2020 complete",
+    "requires": "|Wallrun|",
+    "category": [
+      "Remix Levels",
+      "2020"
+    ]
+  },
+  {
+    "name": "Remix II Legacy complete",
+    "requires": "|Air Jump| and |Dash| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)",
+    "category": [
+      "Remix Levels",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Remix II 2020 complete",
+    "requires": "|Air Jump| and |Dash| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)",
+    "category": [
+      "Remix Levels",
+      "2020"
+    ]
+  },
+  {
+    "name": "Remix III Legacy complete",
+    "requires": "|Blue Gun| or |Yellow Gun| or |Green Gun|",
+    "category": [
+      "Remix Levels",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Remix III 2020 complete",
+    "requires": "|Blue Gun| or |Yellow Gun| or |Green Gun|",
+    "category": [
+      "Remix Levels",
+      "2020"
+    ]
+  },
+  {
+    "name": "Defiance Remix complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash| and (|Assault Gun| or (|Blue Gun| and |Yellow Gun| and |Green Gun|) or (|Supercharge Upgrade| and |Blue Gun|))",
+    "category": [
+      "Defiance"
+    ]
+  },
+  {
+    "name": "User Creation I complete",
+    "requires": "(|Wallrun| or |Supercharge Upgrade|) and |Air Jump| and (|Blue Gun| or |Assault Gun|)",
+    "category": [
+      "User Creation"
+    ]
+  },
+  {
+    "name": "Battle Challenge I complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash| and (|Assault Gun| or (|Blue Gun| and |Yellow Gun| and |Green Gun|) or |Supercharge Upgrade|)",
+    "category": [
+      "Battle Challenge"
+    ]
+  },
+  {
+    "name": "Battle Challenge II complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash| and ((|Blue Gun| and |Yellow Gun| and |Green Gun|) or |Supercharge Upgrade|)",
+    "category": [
+      "Battle Challenge"
+    ]
+  },
+  {
+    "name": "Desperation complete",
+    "requires": "(|Wallrun| and |Dash| and (|Yellow Gun| or |Green Gun|)) or (|Air Jump| and |Supercharge Upgrade| and (|Yellow Gun| or |Green Gun|)) or (|Air Jump| and |Wallrun| and |Dash| and |Supercharge Upgrade|)",
+    "category": [
+      "Defiance"
+    ]
+  },
+  {
+    "name": "Nostalgia complete",
+    "requires": "(|Wallrun| and |Air Jump| and (|Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|)) or (|Air Jump| and |Supercharge Upgrade| and (|Blue Gun| or |Yellow Gun| or |Green Gun|)) or (|Air Jump| and |Wallrun| and |Dash| and |Supercharge Upgrade|)",
+    "category": [
+      "Defiance"
+    ]
+  },
+  {
+    "name": "Desire complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash| and (|Assault Gun| or (|Blue Gun| and |Yellow Gun| and |Green Gun|) or |Supercharge Upgrade|)",
+    "category": [
+      "Defiance"
+    ]
+  },
+  {
+    "name": "Expectations Legacy complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash| and (|Assault Gun| or |Blue Gun|)",
+    "category": [
+      "Defiance",
+      "Legacy"
+    ]
+  },
+  {
+    "name": "Expectations 2020 complete",
+    "requires": "|Air Jump| and |Wallrun| and |Dash| and |Blue Gun|",
+    "category": [
+      "Defiance",
+      "2020"
+    ]
+  },
+  {
+    "name": "Chains complete",
+    "requires": "|Red Key| and |Green Key| and |Violet Key| and |Magenta Key| and |Air Jump| and |Wallrun| and |Dash| and (|Assault Gun| or (|Blue Gun| and |Yellow Gun| and |Green Gun|) or (|Supercharge Upgrade| and |Blue Gun|))",
+    "victory": true,
+    "category": [
+      "Defiance"
+    ]
+  },
+  {
+    "name": "My Favorite Spot",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|",
+    "category": [
+      "Day Branch",
+      "Easter Egg"
+    ]
+  },
+  {
+    "name": "Castle in the Sky",
+    "requires": "|Air Jump|",
+    "category": [
+      "Fog Branch",
+      "Easter Egg"
+    ]
+  },
+  {
+    "name": "Flower in Dreams",
+    "category": [
+      "Dawn Branch",
+      "Easter Egg"
+    ]
+  },
+  {
+    "name": "Flower in Escape",
+    "category": [
+      "Day Branch",
+      "Easter Egg"
+    ]
+  },
+  {
+    "name": "Flower in Emptiness",
+    "requires": "|Air Jump| and |Wallrun|",
+    "category": [
+      "Night Branch",
+      "Easter Egg"
+    ]
+  },
+  {
+    "name": "Flower in What's to Come",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Assault Gun|",
+    "category": [
+      "Storm Branch",
+      "Easter Egg"
+    ]
+  },
+  {
+    "name": "Okay that's Weird",
+    "category": [
+      "Walk in the Park",
+      "Easter Egg"
+    ]
+  },
+  {
+    "name": "Halfpipe 360 in the Practice Level",
+    "requires": "|Air Jump| and |Dash|",
+    "category": [
+      "Walk in the Park"
+    ]
+  },
+  {
+    "name": "Climbed to the Top of the Practice Level",
+    "requires": "|Wallrun|",
+    "category": [
+      "Walk in the Park"
+    ]
+  }
+]
