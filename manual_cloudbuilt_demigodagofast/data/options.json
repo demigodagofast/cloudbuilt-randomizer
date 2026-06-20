@@ -70,9 +70,19 @@
           "Traps include:",
           "- Completing a challenge mode version of a level (Fragile, No Ammo, Beacons, Pathfinder). You can choose any level for this (even ones you have already completed).",
           "- Listen to Demi monologue. Open the computer in the hospital room, double click one of the text logs, and listen to Demi read it.",
-          "- Play golf. Go to Custom Levels and complete the level 'Mini Golf? But Worse!'"
+          "- Play golf. Go to Custom Levels and complete the level 'Mini Golf? But Worse!'",
+          "- Temporary debuffs (Fragile, No Ammo, limited energy, Supercharge Upgrade disabled)."
         ],
         "default": true
+      },
+      "enable_corner_jump_allowance": {
+        "type": "Toggle",
+        "display_name": "Enable Corner Jump Allowance",
+        "description": [
+          "If turned on, replaces some of the Life Caps by 'Corner Jump Allowance' items.",
+          "You are allowed one corner jump per 'Corner Jump Allowance' item."
+        ],
+        "default": false
       }
     }
 }

@@ -71,5 +71,14 @@
     "yaml_option": [
       "enable_traps"
     ]
+  },
+  "Corner Jump Allowance": {
+    "yaml_option": [
+      "enable_corner_jump_allowance"
+    ],
+    "hidden": true
+  },
+  "Consumables": {
+
   }
 }

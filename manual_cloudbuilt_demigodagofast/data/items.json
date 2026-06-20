@@ -1,148 +1,227 @@
-[
-  {
-    "name": "Air Jump",
-    "count": 1,
-    "category": [
-      "Equipment"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Wallrun",
-    "count": 1,
-    "category": [
-      "Equipment"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Dash",
-    "count": 1,
-    "category": [
-      "Equipment"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Supercharge Upgrade",
-    "count": 1,
-    "category": [
-      "Equipment",
-      "Supercharge"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Yellow Gun",
-    "count": 1,
-    "category": [
-      "Equipment"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Green Gun",
-    "count": 1,
-    "category": [
-      "Equipment"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Blue Gun",
-    "count": 1,
-    "category": [
-      "Equipment"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Assault Gun",
-    "count": 1,
-    "category": [
-      "Equipment",
-      "Assault Gun"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Red Key",
-    "count": 1,
-    "category": [
-      "Keys"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Green Key",
-    "count": 1,
-    "category": [
-      "Keys"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Violet Key",
-    "count": 1,
-    "category": [
-      "Keys"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Magenta Key",
-    "count": 1,
-    "category": [
-      "Keys"
-    ],
-    "progression": true
-  },
-  {
-    "name": "Complete a Fragile Challenge",
-    "count": 1,
-    "category": [
-      "Traps"
-    ],
-    "trap": true
-  },
-  {
-    "name": "Complete a No Ammo Challenge",
-    "count": 1,
-    "category": [
-      "Traps"
-    ],
-    "trap": true
-  },
-  {
-    "name": "Complete a Beacons Challenge",
-    "count": 1,
-    "category": [
-      "Traps"
-    ],
-    "trap": true
-  },
-  {
-    "name": "Complete a Pathfinder Challenge with a C Rank or Better",
-    "count": 1,
-    "category": [
-      "Traps"
-    ],
-    "trap": true
-  },
-  {
-    "name": "Listen to a Demi Monologue",
-    "count": 1,
-    "category": [
-      "Traps"
-    ],
-    "trap": true
-  },
-  {
-    "name": "Play Golf in the Clouds",
-    "count": 1,
-    "category": [
-      "Traps"
-    ],
-    "trap": true
-  }
-]
+{
+  "_comment": [
+    "NOTE: Classifying consumables and traps as 'filler' because:",
+    "1. If consumables/life caps are 'useful', then they will be prioritized",
+    "   over filler/traps when filling extra checks, preventing traps",
+    "   from generating in the item pool (since there are more consumables",
+    "   + life caps than extra checks).",
+    "2. The 'filler_traps' slider in the Options Creator only overwrites",
+    "   generic filler, so will never overwrite the consumables/life caps",
+    "   specified here. Hacky workaround is to make the traps filler",
+    "   so they are drawn from the same item pool as consumables/life caps."
+  ],
+  "data": [
+    {
+      "name": "Air Jump",
+      "count": 1,
+      "category": [
+        "Equipment"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Wallrun",
+      "count": 1,
+      "category": [
+        "Equipment"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Dash",
+      "count": 1,
+      "category": [
+        "Equipment"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Supercharge Upgrade",
+      "count": 1,
+      "category": [
+        "Equipment",
+        "Supercharge"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Yellow Gun",
+      "count": 1,
+      "category": [
+        "Equipment"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Green Gun",
+      "count": 1,
+      "category": [
+        "Equipment"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Blue Gun",
+      "count": 1,
+      "category": [
+        "Equipment"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Assault Gun",
+      "count": 1,
+      "category": [
+        "Equipment",
+        "Assault Gun"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Red Key",
+      "count": 1,
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Green Key",
+      "count": 1,
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Violet Key",
+      "count": 1,
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Magenta Key",
+      "count": 1,
+      "category": [
+        "Keys"
+      ],
+      "progression": true
+    },
+    {
+      "name": "Complete a Fragile Challenge",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Complete a No Ammo Challenge",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Complete a Beacons Challenge",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Complete a Pathfinder Challenge with a C Rank or Better",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Listen to a Demi Monologue",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Play Golf in the Clouds",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Fragile for 5 Minutes",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "No Ammo for 5 Minutes",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "33% Energy for 5 Minutes",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "0% Energy for 5 Minutes",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "50% Energy for 5 Minutes",
+      "count": 1,
+      "category": [
+        "Traps"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Supercharge Upgrade Disabled for 5 Minutes",
+      "count": 1,
+      "category": [
+        "Traps",
+        "Supercharge"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Life Cap",
+      "count": 60,
+      "category": [
+        "Life Cap"
+      ],
+      "filler": true
+    },
+    {
+      "name": "Corner Jump Allowance",
+      "count": 20,
+      "category": [
+        "Consumables",
+        "Corner Jump Allowance"
+      ],
+      "filler": true
+    }
+  ]
+}
