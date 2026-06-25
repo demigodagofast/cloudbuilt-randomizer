@@ -44,24 +44,19 @@
         ],
         "default": true
       },
-      "enable_legacy_levels": {
-        "type": "Toggle",
-        "display_name": "Enable Legacy Level Variants",
+      "level_variants": {
+        "type": "Choice",
+        "display_name": "Level Variants",
         "description": [
-          "If turned on, levels with both Legacy and 2020 variants will have their Legacy variants included as locations.",
-          "NOTE: This setting and Enable 2020 Level Variants may both be enabled (in which case both variants appear).",
-          "NOTE: If Supercharge, Assault, or Easter egg checks are on, some randomizer logic may require you to play the Supercharge/Assault/Legacy variants of levels even if this setting is disabled."
+          "For levels with both a Legacy and 2020 variant, which variant should appear as a location.",
+          "Recommended to use 'Both' when playing in multiplayer randomizer events."
         ],
-        "default": true
-      },
-      "enable_2020_levels": {
-        "type": "Toggle",
-        "display_name": "Enable 2020 Level Variants",
-        "description": [
-          "If turned on, levels with both Legacy and 2020 variants will have their 2020 variants included as locations.",
-          "NOTE: This setting and Enable Legacy Level Variants may both be enabled (in which case both variants appear)."
-        ],
-        "default": false
+        "values": {
+          "Legacy Only": 0,
+          "2020 Only": 1,
+          "Both": 2
+        },
+        "default": 0
       },
       "enable_traps": {
         "type": "Toggle",

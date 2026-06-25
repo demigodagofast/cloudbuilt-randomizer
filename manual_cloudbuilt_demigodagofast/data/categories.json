@@ -53,15 +53,9 @@
     "hidden": true
   },
   "Legacy": {
-    "yaml_option": [
-      "enable_legacy_levels"
-    ],
     "hidden": true
   },
   "2020": {
-    "yaml_option": [
-      "enable_2020_levels"
-    ],
     "hidden": true
   },
   "Keys": {

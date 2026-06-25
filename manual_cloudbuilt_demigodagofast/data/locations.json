@@ -182,7 +182,7 @@
   },
   {
     "name": "Emptiness Legacy complete",
-    "requires": "|Dash|",
+    "requires": "|Air Jump| or |Dash|",
     "category": [
       "Night Branch",
       "Legacy"
@@ -190,7 +190,7 @@
   },
   {
     "name": "Emptiness 2020 complete",
-    "requires": "|Dash|",
+    "requires": "|Air Jump| or (|Wallrun| and |Dash|)",
     "category": [
       "Night Branch",
       "2020"
@@ -574,7 +574,7 @@
   },
   {
     "name": "My Favorite Spot",
-    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Green Gun| or |Assault Gun|",
+    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Green Gun| or (|Assault Gun| and {YamlCompare(level_variants != 1)})",
     "category": [
       "Day Branch",
       "Easter Egg"
@@ -604,7 +604,7 @@
   },
   {
     "name": "Flower in Emptiness",
-    "requires": "|Air Jump| and |Wallrun|",
+    "requires": "(|Air Jump| or |Dash|) and |Wallrun|",
     "category": [
       "Night Branch",
       "Easter Egg"
@@ -612,7 +612,7 @@
   },
   {
     "name": "Flower in What's to Come",
-    "requires": "|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Assault Gun|",
+    "requires": "((|Air Jump| or |Wallrun| or |Dash| or |Blue Gun| or |Yellow Gun| or |Assault Gun|) and {YamlCompare(level_variants != 1)}) or ((|Air Jump| or |Wallrun|) and (|Blue Gun| or |Green Gun| or |Yellow Gun|) & {YamlCompare(level_variants != 0)})",
     "category": [
       "Storm Branch",
       "Easter Egg"
